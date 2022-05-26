@@ -202,7 +202,7 @@ div p:nth-of-type(2){
 }
 
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 980px) {
     .header {
         align-items: center;
         flex-direction: column;
@@ -220,7 +220,14 @@ div p:nth-of-type(2){
     .header div ul li {
         margin-left: 0px;
         justify-content: space-between;
+        padding-left:10px;
+        padding-right: 10px;
     }
+
+
+}
+
+@media screen and (max-width: 760px) {
 
     .row {
         align-items: center;
@@ -250,5 +257,5 @@ div p:nth-of-type(2){
     }
 
 
-}
 
+}
