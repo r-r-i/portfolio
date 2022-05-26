@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 :root{
     --light: rgb(220,220,220);
     --darker: #474747;
@@ -9,7 +13,6 @@
     justify-content: space-between;
     flex-wrap:wrap;
     color:var(--light);
-    font-family:Arial, Helvetica, sans-serif;
     background-color: #474747;
 }
 
@@ -49,7 +52,6 @@ a {
 .about {
     padding-top: 75px;
     padding-bottom:100px;
-    margin:0 auto;
     background-color: var(--darker);
 
 }
@@ -150,14 +152,32 @@ div p:nth-of-type(2){
 }
 
 .projects {
+    padding-top: 75px;
+    padding-bottom:75px;
+    background-color: var(--darker);
+}
+
+
+.projects h2 {
     display:flex;
     flex-wrap:wrap;
-    padding-bottom: 100px;
-    padding-top: 75px;
+    padding-bottom: 35px;
     justify-content: center;
     font-size: 40px;
     color: var(--light);
     background: var(--darker);
+
+}
+
+.projects-content {
+    display:flex;
+    flex-wrap: wrap;
+    width:60%;
+    margin:auto;
+    justify-content: center;
+    text-align: center;
+    color: var(--light);
+    line-height: 20px;
 
 }
 
