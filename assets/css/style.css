@@ -46,6 +46,7 @@ a {
     height:100%;
     width: 100%;
     flex:1;
+    transition:0.5s;
     
 }
 
@@ -64,6 +65,7 @@ a {
     font-size: 40px;
     color: var(--light);
 }
+
 
 
 .about-content {
