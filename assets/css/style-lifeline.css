@@ -8,11 +8,6 @@
     --darker: #474747;
     --mid: #3cb371;
 }
-
-
-
-
-
 a  {
     display:flex;
     flex-wrap:wrap;
@@ -33,7 +28,7 @@ h1 {
     padding-bottom:35px;
 }
 
-.lifeline-desc p {
+p {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
